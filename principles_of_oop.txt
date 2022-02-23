@@ -1,0 +1,20 @@
+1. ENCAPSULATION
+    - restricting direct access 
+
+    ```python
+    self.__name = name  <-- double underscore
+    ...
+
+    if len(value) > 10: ... 
+    ```
+
+
+2. ABSTRACTION
+
+
+3. INHERITANCE
+    - allow us to re-use the codes across the different classes  
+
+
+4. POLYMORPHISM 
+    - single type of entity to represent multiple types for dirffernet scenario 
