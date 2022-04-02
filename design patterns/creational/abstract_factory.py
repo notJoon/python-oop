@@ -1,9 +1,6 @@
 ## Abstract Factory 
 from abc import ABC, abstractmethod
 
-
-
-
 class AbstractProductA(ABC):
     """ Each distinct product of a product family should have a base interface. """
 
@@ -47,7 +44,6 @@ class ConcreteProductB2(AbstractProductB):
     def another_function_b(self, collaborator: AbstractProductA) -> str:
         result = collaborator.function_a()
         return f"The result of the B2 collaborating with the ({result})"
-
 
 
 
