@@ -56,4 +56,4 @@ if __name__ == "__main__":
     if id(s1) == id(s2):
         print("Singleton works, both variables contain the same instance.")
     else:
-        print("singleton failed, variables contain differnet instances.")
+        print("singleton failed, variables contain different instances.")
