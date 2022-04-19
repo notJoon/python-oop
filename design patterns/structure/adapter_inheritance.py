@@ -1,8 +1,25 @@
 """ Apdater (Structure Pattern) 
 
 allows objects with incompatible interfaces to collaborate.
+converts the interface of one object so that another object can understand it.
 
+    * Structures:
+        - Client : contains the existing business logic of the program
+        - Client Interface : describes a protocol that other classes 
+                must follow to be able to collaborate with the client code.
+        - Service : 3rd-party or legacy. client can't use this directly
+        - Adapter : class that’s able to work with both the client and the service
+    
+    The client code doesn’t get coupled to the concrete adapter class 
+    as long as it works with the adapter via the client interface. 
 
+    * Pros and Cons:
+        Pros:
+            - Single Responsibility Principle
+            - Open/closed Principle 
+
+        Cons: 
+            - The overall complexity of the code increases 
 """
 
 ### via inheritance 
